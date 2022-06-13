@@ -131,6 +131,10 @@ section.main {
     justify-content: center;
 }
 
+title {
+    display: none !important;
+}
+
 .main_about h1 {
     font-family: 'Druk Text LCG';
     font-style: normal;
