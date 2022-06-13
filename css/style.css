@@ -1458,7 +1458,7 @@ section.roadmap {
         display: none;
     }
     #Planet {
-        top: 750px;
+        top: 670px;
     }
     i {
         width: 4px;
@@ -1476,5 +1476,8 @@ section.roadmap {
     }
     .team_items {
         column-gap: 10px;
+    }
+    section.about {
+        margin-top: 65px;
     }
 }
