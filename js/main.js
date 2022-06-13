@@ -93,7 +93,7 @@ window.onload = function() {
 $(document).ready(function() {
     var options = {
         animateClass: 'animate__animated',
-        animateThreshold: 40,
+        animateThreshold: 10,
 
     }
     $('.aniview').AniView(options);
