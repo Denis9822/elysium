@@ -29,7 +29,7 @@ img {
 }
 
 header {
-    background: rgba(32, 53, 117, 0.2);
+    background: #122138;
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 300px;
     padding-top: 24px;
