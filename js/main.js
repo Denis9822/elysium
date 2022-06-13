@@ -28,7 +28,7 @@ let obj = null;
 if (window.innerWidth > 768) {
     loader.load('3d/scene.gltf', function(gltf) {
         obj = gltf;
-        obj.scene.scale.set(0.8, 0.8, 0.8);
+        obj.scene.scale.set(0.5, 0.5, 0.5);
         scene.add(obj.scene);
         document.body.classList.add('loaded_hiding');
         window.setTimeout(function() {
