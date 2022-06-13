@@ -1403,7 +1403,7 @@ section.roadmap {
         text-align: center;
     }
     section.team {
-        margin-top: 65px;
+        margin-top: 5px;
     }
     .team h2 {
         font-size: 20px;
@@ -1458,6 +1458,23 @@ section.roadmap {
         display: none;
     }
     #Planet {
-        top: 720px;
+        top: 750px;
+    }
+    i {
+        width: 4px;
+        height: 4px;
+    }
+    .category h3 {
+        text-align: center;
+    }
+    .places_btns {
+        position: relative;
+        top: -100px;
+    }
+    .team_item_img {
+        width: 160px;
+    }
+    .team_items {
+        column-gap: 10px;
     }
 }
