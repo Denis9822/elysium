@@ -39,7 +39,7 @@ if (window.innerWidth > 768) {
 } else {
     loader.load('3d/scene.gltf', function(gltf) {
         obj = gltf;
-        obj.scene.scale.set(0.4, 0.4, 0.4);
+        obj.scene.scale.set(0.3, 0.3, 0.3);
         scene.add(obj.scene);
         document.body.classList.add('loaded_hiding');
         window.setTimeout(function() {
